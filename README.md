@@ -1,6 +1,6 @@
 
 # Тестовое Задание для Uddug
-1. Склонировать через __git clone https://github.com/whyhussain/uggug__
+1. Склонировать через __git clone https://github.com/whyhussain/uddug__
 2. После в Терминале __cd uddug__
 3. Дальше __go mod tidy__
 4. Запускаем проект через __go run main.go__
