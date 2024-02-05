@@ -1,22 +1,21 @@
+# Readme File for Uddug Test Task
+1. Clone the repository using the command: `git clone https://github.com/whyhussain/uggug`
+2. Navigate to the cloned directory: `cd uddug`
+3. Run `go mod tidy` in the terminal.
+4. Start the project by running: `go run main.go`
 
-# Тестовое Задание для Uddug
-1. Склонировать через __git clone https://github.com/whyhussain/uggug__
-2. После в Терминале __cd uddug__
-3. Дальше __go mod tidy__
-4. Запускаем проект через __go run main.go__
+### Issue Understanding Data Structure
+I encountered a slight confusion regarding the data structure, and it might be an error.
 
-### Немного не понял один момент со структурой данных,может это ошибка
-
-Так в примере у мне структура
+In the provided example, the structure is defined as follows:
 #### type Transaction struct {
     Value     int       `json:"value"`
     Timestamp time.Time `json:"time"`
 }
-#### Но в примере TimeStamp дается в виде int64
+#### However, in the example, `TimeStamp` is given as an int64:
 ### {
     Value : 4456,
     TimeStamp:1616026248,
 }
 
-### Поэтому в мейн файле я навсякий показываю его в int64 и в формате __Time__
-
+### Therefore, in the main file, I am explicitly displaying it as int64 and in the format of __Time__.
